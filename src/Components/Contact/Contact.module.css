@@ -1,0 +1,178 @@
+._contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.contact .background_div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    /* overflow: hidden; */
+}
+.contact .background_div .background_img {
+    width: 100%;
+    /* height: 100%; */
+
+}
+
+.contact .background_div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.contact .contact_absolute {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 10%;
+    left: 7%;
+    gap: 48px;
+}
+
+.contact .contact_absolute .contact_title p {
+    color: white;
+}
+
+.contact .contact_absolute .contact_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 432px;
+    gap: 34px;
+}
+
+.contact .contact_absolute .contact_frame {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+
+}
+
+.contact .contact_absolute .contact_frame .map {
+    display: flex;
+    flex-direction: column;
+    gap: 71px;
+    width: 100%;
+}
+
+.contact .contact_absolute .contact_frame .map .contact_dets {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 46px;
+}
+
+.contact .contact_absolute .contact_frame .map .contact_dets .contact_det {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: -1px -6px 20px #a9a9a96b;
+    border-radius: 14px;
+    width: 100%;
+    height: 100%;
+    padding: 31px 34px;
+}
+
+.contact .contact_absolute .contact_frame .map .contact_dets .contact_det div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.contact .contact_absolute .contact_frame .map .contact_dets .contact_det p {
+    color: var(--light-gray);
+    font-size: 15px;
+}
+
+.contact .contact_absolute .contact_frame .map .contact_dets .contact_det b {
+    font-size: 21px;
+}
+
+.contact .contact_absolute .contact_frame .map,
+.contact .contact_absolute .contact_frame form {
+    height: 567px;
+    width: -webkit-fill-available;
+}
+
+.contact .contact_absolute .contact_frame form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #a9a9a96b;
+    gap: 22px;
+    padding: 25px 25px 38px 25px
+}
+
+.contact .contact_absolute .contact_frame form .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.contact .contact_absolute .contact_frame form .input input,
+.contact .contact_absolute .contact_frame form .input textarea {
+    width: 317px;
+    padding: 12px;
+    border-radius: 18px;
+    border: none;
+    background-color: #f6f6f6;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.contact .contact_absolute .contact_frame form button {
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 35px;
+    padding: 11px;
+    width: 119px;
+    margin-top: 13px;
+}
+
+.contact .copy {
+    color: white;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+}
+iframe{
+    width: 100%;
+
+}
+/* _________________________________MEDIA QUERY_________________________________________________________________________________________________________________ */
+
+@media (min-width: 992px) and (max-width: 1162px) {
+    .contact .contact_absolute .contact_frame{
+        gap: 36px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+  }
+  @media (max-width: 575px) {
+  }
